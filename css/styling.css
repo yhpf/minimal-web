@@ -1,0 +1,100 @@
+/* Style sheet created for index.html in the minimal website project */
+
+
+/* Styling body */
+
+body{
+	margin: 20px;
+	padding: 5px;
+	font-size: 16px;
+	font-family: helvetica, arial, veranda, tahoma;
+	color: #666666;
+}
+
+/* Style the yhpf text */
+
+#headertext{
+	text-align: center;
+	margin: 0px;
+}
+
+#headertext a{
+	text-decoration: none;
+	color: #006600;
+	font-size: 40px;
+}
+
+#headertext h1{
+	margin: 0px;
+}
+
+
+/* Style nav bar list */
+ul {
+	text-align: center;
+	list-style: none; 
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+}
+
+/* style nav bar links */
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-family: helvetica, arial, veranda, tahoma;
+	font-weight: bold;
+
+	display: inline-block;
+	margin: 5px 15px 5px 15px;
+}
+
+/* More styling of nav bar links */
+nav a:link {
+  color: #666666;
+}
+
+nav a:visited {
+  color: #666666;
+}
+
+nav a:hover {
+  color: #006600;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #000000;
+}
+
+hr{
+	color:#666666;
+}
+
+footer{
+	background-color: #006600; 
+	width: 100%;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#footer-links{
+	margin: 0px;
+}
+
+#footer-links li{
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
