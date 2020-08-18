@@ -15,30 +15,45 @@
 <body>
 
 	<header>
-		<div id="headertext">
-			<a href="index.html"><p>@yhpf</p></a>
-		</div>
-		<nav>
+		<nav class="fixed-nav-bar">
 			<ul>
-				<li><a href="about.html">About</a></li>
-    			<li><a href="resume.html">Resume</a></li>
-    			<li><a href="portfolio.html">Portfolio</a></li>
-    			<li><a href="blog.html">Writing</a></li>
+				<li id="headertext"><a href="#top"><p>@yhpf</p></a></li>
+				<li><a href="#about">About</a></li>
+    			<li><a href="#resume">Resume</a></li>
+    			<li><a href="#portfolio">Portfolio</a></li>
+    			<li><a href="writing.html">Writing</a></li>
     			<li><a href="contact.html">Contact</a></li>
     		</ul>
     	</nav>
 	</header>
 
+	<hr>
+
+<!-- First fast intoduction -->
+
 	<section id="hisspitch">
-				<h2>youn hee pernling frödin</h2>
-				<p>I’m an Economist that has gone Data Analyst and Web Developer. As a Data Analyst I feel an urge to understand and explain the world. I love exploring behaviors and trends, and creating consumer insights. As a Web Developer. I love to create well designed, functional and accessible web pages. All togehter I bring a sense of creativity and curiosity, and I’m always eager to expand my skills.</p>
+		<div class="top">
+			<p>YHPF is an economist, data analyst 
+			and web developer that brings creativity and all around awesomeness.
+			</p>
+		</div>
 	</section>
+
+<!-- Image -->
+
+	<div class="bild">
+		<img id="main-image" src="img/index-main-image-thin.jpg">
+	</div>
+
+<!-- About me -->
 
 	<section id="about">
 		<div class="flex-container">
 			<div>
 				<h1>about me</h1>
-				<p>I'm a Data Analyst and an Economist that loves diving into numbers to find insight. Insights that help to understand the future as well as bringing value to the company and its costumers. I'm a team player that pulls my own weight. Uncovering things that lead to change and improvements drive me.
+				<p>I’m an Economist that has gone Data Analyst and Web Developer. As a Data Analyst I feel an urge to understand and explain the world. I love exploring behaviors and trends, and creating consumer insights. As a Web Developer I love to create well designed, functional and accessible web pages. All togehter I bring a sense of creativity and curiosity, and I’m always eager to expand my skills.
+				<br>
+				I'm a Data Analyst and an Economist that loves diving into numbers to find insight. Insights that help to understand the future as well as bringing value to the company and its costumers. I'm a team player that pulls my own weight. Uncovering things that lead to change and improvements drive me.
 				<br>
 				I've worked with both internal and external data sources. In most cases, I've had the benefit of being the person who can analyze already gathered data. I've also experienced being responsible for the entire lifecycle of data, from acquisition to actionable insight.</p>
 			</div>
@@ -46,6 +61,131 @@
 				<img src="img/profilepic.jpg">
 			</div>
 		</div>
+	</section>
+
+<!-- Resume at a glance -->
+	<div id="resume">
+	<section class="resume">
+		<div id="education">
+			<h1>education</h1>
+
+			<p class="resume-place">Linköping University, Sweden</p>
+			<p class="resume-info">B.S. in Political Science and Economics</p>
+			<p>Major: Macroeconomics and Finance<br>
+			Exchange year: Sungkyunkwan University, South Korea</p>
+
+			<br>
+
+			<p class="resume-place">General Assembly, New York, USA</p>
+			<p class="resume-info">Diploma, Data Science Immersive</p>
+			<p>Data Science Immersive is a 12-week long training program that trains in the latest technologies and to make participants ready for a deep dive into the world of Data Science.</p>
+
+			<br>
+			
+			<p class="resume-place">Luleå University of Technology, Sweden</p>
+			<p class="resume-info">Web Development 1 & 2</p>
+			<p>Basic HTML, CSS and script language</p>
+
+			<br>
+
+			<p class="resume-place">Cornerstone, Sweden</p>
+			<p class="resume-info">Microsoft SQL server 2012/2014</p>
+			<p>Querying fundamentals and advanced querying</p>
+
+			<br>
+
+			<p class="resume-place">Forsbergs Skola, Sweden</p>
+			<p class="resume-info">Diploma, Graphic Design - Advanced</p>
+			<p>One year evening program covering typography, music and paper back covers, brands and logos, advertising, ads and posters, packaging design, advertising design, magazine design, calender design, advertising communication and design programs.</p>
+		</div>
+	</section>
+
+		<br>
+
+	<section class="resume">
+		<div id="work">
+			<h1>work</h1>
+			<p class="years">June 2019 - now</p>
+			<p class="resume-place">Swedish Women’s Educational Association Inc., New York, USA</p>
+			<p class="resume-title">Art Director SWEA New York Magazine & Web Editor</p>
+			<p>As an AD I create and bring beautiful ideas to life. In other words, I'm responsible for the layout of the magazine, image editing and creation of some of the content.<br>
+			As a web editor I'm responsible for continuous content management and minor changes of the web sites appearance and structure. The role also includes digital web analytics.
+			</p>
+
+			<br>
+
+			<p class="years">June 2014- December 2017</p>
+			<p class="resume-place">Swedish Agency for Government Employers, Sweden</p>
+			<p class="resume-title">Analyst</p>
+			<p>Performed statistics analysis and cost analysis in SQL and Excel for the Swedish Government sector and presented the results to different stakeholders.</p>
+
+			<br>
+
+			<p class="years">January 2012 - June 2014</p>
+			<p class="resume-place">Almega, Sweden</p>
+			<p class="resume-title">Wage Statistics Manager</p>
+			<p>Performed and coordinated analysis for the Private Service Sector in Sweden. Rebuilt the area of wage statistics, developed the use of data and the structure around data usage.</p>
+
+			<br>
+
+			<p class="years">April 2010 - December 2013</p>
+			<p class="resume-place">Almega Service Contractors, Sweden</p>
+			<p class="resume-title">Industry Analyst</p>
+			<p>Handled enterprise policy questions and was responsible for the yearly report, containing development in the industry and other related analysis.<br>
+			In charge of the creation, development and maintenance of our website and SEO.</p>
+
+			<br>
+
+			<p> For more details about my work experiences please visit my <a href="https://www.linkedin.com/in/younhee-pf/">LinkedIn page</a>.
+		</div>
+	</section>
+
+		<br>
+
+	<section class="resume">
+		<div id="skills">
+			<h1>skills</h1>
+			<p>I'm always striving to deepen understandig and to learn new things.</p>
+			<table class="skills">
+				<tr>
+					<td>SQL</td>
+					<td>Data Analysis</td>
+					<td>Git</td>
+				</tr>
+				<tr>
+					<td>Python</td>
+					<td>Data Visualization</td>
+					<td>WordPress</td>
+				</tr>
+				<tr>
+					<td>HTML</td>
+					<td>Big Data</td>
+					<td>Adobe Creative Cloud</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>Machine Learning</td>
+					<td>Art Directing</td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td>Web Design</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	</div>
+
+	<section id="portfolio">
+		<h1>Check out some of my work</h1>
+		<p>admpawkd</p>
+	</section>
+
+	<section id="writing">
+	</section>
+
+	<section id="contact">
 	</section>
 
 	<footer>
