@@ -253,6 +253,10 @@ section.resume p {
 	width:45%;
 }
 
+summary:focus{				/* removes the border that is shown around the summary when in focus */
+    outline: none;
+}
+
 #skills{
 	padding-top: 25px;
 	padding-bottom: 25px;
