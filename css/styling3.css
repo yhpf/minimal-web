@@ -1,6 +1,6 @@
 
 html{
-		margin: 0px;
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -14,19 +14,35 @@ body{
 	height: 100%;
 }
 
-#welcome{
+.image{
     height: 100vh;
 
-    background-image: url(../img/background-img.jpg);
+    background-image: url(../img/yoni-beskuren.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: green;
-
-    color:#FFFFFF;
+    background-size: 70%; /* this can be set to cover with other image size */
+    background-position: right bottom;
+    background-color: #000000;
 }
 
-.top{
+#welcome{
+	text-align: center;
+}
+
+.yhpf{
+	color:#006600;
+}
+
+.toptop{
 	padding-top: 15%;
+}
+
+.toptop, .top, .center, .bottom{
+	font-family: 'Hind', sans-serif;
+	font-size: 45px;
+
+	display: inline-block;
+
+	color:#999999;
 }
 
 div.top span#a {
@@ -44,3 +60,130 @@ div.top span#b {
 div.top:hover span#b {
   display: inline;
 }
+
+
+div.center span#c {
+  display: inline;
+}
+
+div.center:hover span#c {
+  display: none;
+}
+
+div.center span#d {
+  display: none;
+}
+
+div.center:hover span#d {
+  display: inline;
+}
+
+
+div.bottom span#e {
+  display: inline;
+}
+
+div.bottom:hover span#e {
+  display: none;
+}
+
+div.bottom span#f {
+  display: none;
+}
+
+div.bottom:hover span#f {
+  display: inline;
+}
+
+
+.top a:link{
+  color: #999999; 
+  text-decoration: none;
+}
+
+.top a:visited{
+  color: #999999;
+  text-decoration: none;
+}
+
+.center a:link{
+  color: #999999; 
+  text-decoration: none;
+}
+
+.center a:visited{
+  color: #999999;
+  text-decoration: none;
+}
+
+.bottom a:link{
+  color: #999999; 
+  text-decoration: none;
+}
+
+.bottom a:visited{
+  color: #999999;
+  text-decoration: none;
+}
+
+.arrow{
+	margin-left: 45%;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.arrow a:link{
+  color: #006600;
+  text-decoration: none;
+}
+
+.arrow a:visited{
+  color: #006600;
+  text-decoration: none;
+}
+
+#about{
+	text-align: center;
+	background-color: #006600;
+		padding: 16px;
+		color:#000000;
+}
+
+h2{
+	margin:0;
+}
+
+p.about-text{
+	font-size: 20px;
+}
+
+/* Style for larger screens then mobile Breakpoint 600px */
+@media screen and (min-width:600px) {
+
+#welcome{
+	text-align: left;
+}
+.toptop, .top, .center, .bottom{
+	margin-left: 5%;
+
+} 
