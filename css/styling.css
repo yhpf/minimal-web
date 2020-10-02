@@ -166,6 +166,15 @@ img#main-image{
   	width:100%;
 }
 
+/* Down Arrow */
+.down-arrow{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 1%;
+}
+
+
 /* About */
 
 section#about{

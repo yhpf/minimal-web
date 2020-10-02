@@ -162,19 +162,37 @@ div.bottom:hover span#f {
   text-decoration: none;
 }
 
+/* ABOUT */
 #about{
 	text-align: center;
-	background-color: #006600;
+	background-color: #FFFFFF;
 		padding: 16px;
 		color:#000000;
 }
 
-h2{
+#about h2{
 	margin:0;
+	color:#006600;
+	padding-top: 30px; 
 }
 
-p.about-text{
+ #about p.about-text{
 	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button {
+  border: solid #006600;
+  color: #999999;
+  background-color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /* Style for larger screens then mobile Breakpoint 600px */
@@ -185,5 +203,22 @@ p.about-text{
 }
 .toptop, .top, .center, .bottom{
 	margin-left: 5%;
-
 } 
+
+ #about p.about-text{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.button {
+  border: solid #006600;
+  color: #999999;
+  background-color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
