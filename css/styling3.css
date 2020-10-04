@@ -205,6 +205,23 @@ div.bottom:hover span#f {
   color: white;
 }
 
+/* SKILLS */
+
+#skills{
+	background-color: #999999;
+	padding: 16px;
+	color:#000000;
+	text-align: center;
+}
+
+#skills h2{
+	color:#FFFFFF;
+}
+
+.skills i{
+	margin: 3px;
+}
+
 /* Style for larger screens then mobile Breakpoint 600px */
 @media screen and (min-width:600px) {
 
@@ -223,4 +240,10 @@ div.bottom:hover span#f {
 .button {
   display: inline-block;
   margin: 10px;
+}
+
+div.skills-column{
+	column-count: 3;
+	column-gap: 100px;
+	column-rule: 1px solid #FFFFFF;
 }
