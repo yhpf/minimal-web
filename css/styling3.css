@@ -182,7 +182,6 @@ div.bottom:hover span#f {
 	padding-right: 10px;
 }
 
-
 .button {
   border: solid #006600;
   border-radius: 6px;
@@ -209,7 +208,8 @@ div.bottom:hover span#f {
 
 #skills{
 	background-color: #999999;
-	padding: 16px;
+	padding-top: 16px;
+	padding-bottom: 15px;
 	color:#000000;
 	text-align: center;
 }
@@ -218,8 +218,69 @@ div.bottom:hover span#f {
 	color:#FFFFFF;
 }
 
+#first-skill{
+	margin-top: 0;
+}
+
 .skills i{
 	margin: 3px;
+}
+
+/* WRITING */
+#writing{
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 16px;
+	color:#000000;
+}
+
+#writing h2{
+	color: #006600;
+}
+
+#writing a:link{
+	color: #000000;
+  	text-decoration: none;
+}
+
+#writing a:visited{
+	color: #000000;
+  	text-decoration: none;
+}
+
+#writing a:hover{
+	color: #006600;
+  	text-decoration: none;
+}
+
+/* BILD */
+.pause-bild img {
+    width: 100%;
+    height: auto;
+}
+
+/* CONNECT */
+#connect{
+	text-align: center;
+	background-color: #006600;
+	padding: 16px;
+	color:#FFFFFF;
+	padding-bottom: 50px;
+}
+
+.social a:link{
+	color: #FFFFFF;
+  	text-decoration: none;
+}
+
+.social a:visited{
+	color: #FFFFFF;
+  	text-decoration: none;
+}
+
+.social a:hover{
+	color: #999999;
+  	text-decoration: none;
 }
 
 /* Style for larger screens then mobile Breakpoint 600px */
@@ -244,6 +305,8 @@ div.bottom:hover span#f {
 
 div.skills-column{
 	column-count: 3;
-	column-gap: 100px;
+	column-gap: 5%;
 	column-rule: 1px solid #FFFFFF;
+	margin-left:15%; 
+	margin-right:15%;
 }
