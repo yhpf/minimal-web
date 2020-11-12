@@ -85,6 +85,10 @@ body{
   margin-left: 5%;
 }
 
+#work01 img {
+  width:60%;
+}
+
 /* STYLING FOOTER */
 
 #page-container {
@@ -181,3 +185,6 @@ footer a:active {
     text-align: center;
   }
 }
+
+
+/* Style for larger screens then mobile Breakpoint 600px */
