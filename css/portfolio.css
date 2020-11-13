@@ -83,10 +83,20 @@ body{
 #portfolio{
   min-height: 100%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 #work01 img {
-  width:60%;
+  width: 96%;
+}
+
+#work02 img {
+  width: 96%;
+  margin-right: 2%;
+}
+
+#work03 img {
+  width: 96%;
 }
 
 /* STYLING FOOTER */
@@ -188,3 +198,10 @@ footer a:active {
 
 
 /* Style for larger screens then mobile Breakpoint 600px */
+@media screen and (min-width:600px) {
+  .container {
+    display: flex;
+    width: 100%;
+  }
+}
+
