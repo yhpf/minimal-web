@@ -204,6 +204,11 @@ div.bottom:hover span#f {
   color: white;
 }
 
+.button:active {
+  background-color: #006600; 
+  color: white;
+}
+
 /* SKILLS */
 
 #skills{
