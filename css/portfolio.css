@@ -86,6 +86,45 @@ body{
   margin-right: 5%;
 }
 
+/* ------ */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+#work01:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ------ */
+
+/* Front-end Development */
 #work01 img {
   width: 96%;
 }
@@ -96,6 +135,20 @@ body{
 }
 
 #work03 img {
+  width: 96%;
+}
+
+/* Data Analytics */
+#work011 img {
+  width: 96%;
+}
+
+#work012 img {
+width: 96%;
+margin-right: 2%;
+}
+
+#work013 img {
   width: 96%;
 }
 
@@ -129,7 +182,7 @@ body{
 }
 
 
-/* Placing of copy right text and social media links */
+/* Placing of copyright text and social media links */
 div.copyright{
   display: inline-block;
   float: left;
