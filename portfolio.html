@@ -4,25 +4,30 @@
 <head>
 	<!-- Basics -->
 	<meta charset="UTF-8">
-    <title>yhpf</title>
-    <link rel="icon" type="image/png" href="img/y_favicon.png">
+  <title>yhpf</title>
+  <link rel="icon" type="image/png" href="img/y_favicon.png">
 
-    <!-- CSS and JavaScript -->
-    <link rel="stylesheet" href="css/portfolio.css">
-    <script src = "js/script.js"></script>
+  <!-- CSS and JavaScript -->
+  <link rel="stylesheet" href="css/portfolio.css">
+  <script src = "js/script.js"></script>
 
-    <!-- Fonts and Icons etc. -->
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8bf5e6b33c.js" crossorigin="anonymous"></script>
+  <!-- Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Link to Fancybox (JS "gallery" library)  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+  <!-- Link to Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+
+  <!-- Fonts and Icons etc. -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8bf5e6b33c.js" crossorigin="anonymous"></script>
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div id="page-container">
-  <div id="content-wrap">
-
+  <header>
     <div class="topnav" id="myTopnav">
       <a href="index3.html#welcome" class="active">yhpf</a>
       <a href="index3.html#about">About</a>
@@ -33,55 +38,56 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
+  </header>
 
-    <section id="portfolio">
-      <h1>My Portfolio</h1>
-      <p>Check out some of my work<p>
-      <p>Hang in there! Comming soon :)</p>
+  <div id="page-container">
+    <div id="content-wrap">
+      <section id="portfolio">
+        <h1>My Portfolio</h1>
+        <p>Check out some of my work<p>
+          <p>Hang in there! Comming soon :)</p>
 
-      <h3>Front-end Development</h3>
-      <div class="container">
+          <h3>Frontend Web Development</h3>
+          <p>Click image to view gallery. Click text to read more about the project.</p>
+          <ul class="gallery">
+            <li><a data-fancybox="gallery_1" href="img/NordicCottages.jpg"><img src="img/thumb/NordicCottages.png" alt="Screenshot of website Nordic Cottages"></a><br/>NordicCottages<br/>(University of Michigan - Final Project)</li>
 
-          <p id="work01">
-            <img src="img/NordicCottages.jpg" alt="Screenshot of website for Nordic Cottages1" class="image">
-            <div class="overlay">
-              <div class="text">Hello World</div>
-            </div>
-          </p>
+            <li><a data-fancybox="gallery_1" href="img/wedataviz.png"><img src="img/thumb/wedataviz.png" alt="Screenshot of website Womengineer Data visualization"></a><br/>Womengineer Data visualization<br/>(Harvard Extension School - Final Project)</li>
+          </ul>
 
-        <p id="work02"><img src="img/NordicCottages.jpg" alt="Screenshot of website for Nordic Cottages2"></p>
-        <p id="work03"><img src="img/NordicCottages.jpg" alt="Screenshot of website for Nordic Cottages3"></p>
+          <h3>Data Analytics</h3>
+          <p>Click image to view gallery. Click text to read more about the project.</p>
+          <ul class="gallery">
+            <li><a data-fancybox="gallery_2" href="img/GAcapstone.png"><img src="img/thumb/GAcapstone.png" alt="Screenshot of Capstone project presentation1" />
+            </a><br/>The Mood of Music<br/>(General Assebly - Capstone Project)</li>
+
+            <li><a data-fancybox="gallery_2" href="img/superhero.jpg"><img src="img/thumb/superhero.jpg" alt="Person holding superhero mask" /></a><br/>Superheros<br/>(Marvel Data Visualization)</li>
+
+            <li><a data-fancybox="gallery_2" href="img/GAcapstone.png"><img src="img/thumb/GAcapstone.png" alt="Screenshot of Capstone project presentation3" /></a><br/>Titel<br/>(Explenation)</li>
+          </ul>
+
+          <h3>Other</h3>
+          <p>Please visit <a href="https://github.com/yhpf" target="_blank">my GitHub</a> for more work.</p>
+
+          <div class="push"></div>
+        </section>
       </div>
 
-      <h3>Data Analytics</h3>
-      <div class="container">
-        <p id="work011"><img src="img/GAcapstone.png" alt="Screenshot of Capstone project presentation1"></p>
-        <p id="work012"><img src="img/superhero-small.jpg" alt="Person holding superhero mask"></p>
-        <p id="work013"><img src="img/GAcapstone.png" alt="Screenshot of Capstone project presentation3"></p>
-      </div>
+      <footer id="footer">
+        <section class="footer">
+          <div class="copyright footer-left">
+            Copyright &copy; 2020 yhpf
+          </div>
+          <div class="social footer-right">
+            <a href="https://www.linkedin.com/in/younhee-pf/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+            <a href="https://github.com/yhpf" target="_blank"><i class="fab fa-2x fa-github"></i></a>
+            <a href="https://medium.com/@yhpf" target="_blank"><i class="fab fa-2x fa-medium-m"></i></a>
+            <a href="https://twitter.com/owhynie?lang=en" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
+            <a href="mailto:youhee.pf@gmail.com" target="_blank"><i class="fas fa-2x fa-at"></i></a>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
 
-      <h3>Other</h3>
-        <p>Please visit <a href="https://github.com/yhpf" target="_blank">my GitHub</a> for more work.</p>
-
-      <div class="push"></div>
-    </section>
-  </div>
-
-  <footer id="footer">
-    <section class="footer">
-      <div class="copyright footer-left">
-        Copyright &copy; 2020 yhpf
-      </div>
-      <div class="social footer-right">
-        <a href="https://www.linkedin.com/in/younhee-pf/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-        <a href="https://github.com/yhpf" target="_blank"><i class="fab fa-2x fa-github"></i></a>
-        <a href="https://medium.com/@yhpf" target="_blank"><i class="fab fa-2x fa-medium-m"></i></a>
-        <a href="https://twitter.com/owhynie?lang=en" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
-        <a href="mailto:youhee.pf@gmail.com" target="_blank"><i class="fas fa-2x fa-at"></i></a>
-      </div>
-    </section>
-  </footer>
-</div>
-</body>
-
-</html>
+  </html>
